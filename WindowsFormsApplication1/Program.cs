@@ -17,7 +17,10 @@ namespace WindowsFormsApplication1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 			
-			//test form
+			//TODO: 
+			int a = 5; 
+			if (a == 5)
+				Debug.Write("Jest ok");
         }
     }
 }
