@@ -23,7 +23,9 @@ namespace WindowsFormsApplication1
 			if (a == 5)
 				Debug.Write("Jest ok");
 			//to będą zmiany tylko dla brunch1
-			Debug.WriteLn("Jesteśmy w debug");
+			Debug.WriteLn("Jesteśmy w debug
+			
+			//coś tam poszło na masterze
         }
     }
 }
