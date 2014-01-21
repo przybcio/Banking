@@ -26,6 +26,8 @@ namespace WindowsFormsApplication1
 			Debug.WriteLn("Jesteśmy w debug
 			
 			//coś tam poszło na masterze
+			
+			Debug.Write("To będzie feature");
         }
     }
 }
