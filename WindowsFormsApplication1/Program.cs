@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.Debug;
 
 namespace WindowsFormsApplication1
 {
@@ -16,6 +17,8 @@ namespace WindowsFormsApplication1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+			//to będą zmiany tylko dla brunch1
+			Debug.WriteLn("Jesteśmy w debug");
         }
     }
 }
